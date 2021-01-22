@@ -1,0 +1,8 @@
+Grading for assignment 2: 11
+
+Requirements: ok
+
+Coding Style: ok
+  * mixed tabs and spaces: -1
+
+Code Similarity: -3
