@@ -1,0 +1,13 @@
+Grading for assignment 1: 11
+
+Requirements: ok
+ * Req 3.a: -1
+ * Req 3.b: -1
+ * Ball penetrates too deeply into cushions: -0.5
+ * Reflection off cushion not robust: -0.5
+
+Coding Style:
+ * Missing semicolon (2x): -0.5
+ * Unused variables (2x): -0.5
+ * Unexpected var (2x): -0.5
+ Please, write all your code with one file
