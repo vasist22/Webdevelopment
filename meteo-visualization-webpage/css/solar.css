@@ -1,0 +1,238 @@
+body{
+
+    font-family: Montserrat,sans-serif !important;
+}
+
+.solo{
+position: absolute;
+margin-left: 70%;
+}
+
+.logo{
+    position: absolute;
+    color: #05042F !important;
+    margin-left: 200px;
+    font-size: 34px !important;
+    font-weight: 500;
+
+}
+
+
+.chart{
+
+    width: 500px !important;
+    height: 300px !important;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.logo1{
+
+    width: 180px;
+}
+
+.novo{
+    color: white !important;
+}
+
+#scohead{
+
+    height: 500px !important;
+    background-image: url('/img/IMG_1013.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   
+    opacity: 0.8;
+   
+}
+
+.heado{
+    height: 80px;
+    background:linear-gradient(to right, #F2E3E1 30%, #C02D15 70%) !important;
+   
+}
+
+.ico{
+
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.theo{
+
+    background: linear-gradient(to bottom, #Fff 10%, #DABAB6 90%) !important;
+    height: 400px !important;
+}
+
+.sco{
+    float:right;
+    color: white;
+    margin-top: 100px;
+    margin-right: 50px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+    
+   
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: -100px !important;
+    padding: 0px 20px !important;
+    margin-left: 200px;
+    
+  
+
+}
+.pricing-table{
+   box-shadow: 0px 0px 18px #ccc !important;
+   text-align: center !important;
+   padding: 30px 0px !important;
+   border-radius: 5px !important;
+   position: relative !important;
+ width: 50rem;
+ margin-top: -60px;
+ background-color: white;
+ margin-left: 120px;
+ align-self: center;
+ height: 27rem;
+}
+.pricing-table .head {
+    border-bottom:1px solid #eee !important;
+    padding-bottom: 50px !important;
+    transition: all 0.5s ease !important;
+}
+.pricing-table:hover .head{
+   border-bottom:1px solid #C02D15 !important;
+   
+}
+
+.pricing-table .head .title{
+    margin-bottom: 20px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.pricing-table .content .price{
+    background:linear-gradient(to right, #F2E3E1 0%, #C02D15 100%) !important;
+    width: 110px !important ;
+    height: 110px !important;
+    margin: auto !important;
+    line-height: 90px !important;
+    border-radius: 50% !important;
+    border: 5px solid #fff !important;
+    box-shadow: 0px 0px 10px #ccc !important;
+    margin-top: -50px !important;
+     transition: all 0.5s ease !important;
+}
+.pricing-table:hover .content .price{
+    transform: scale(1.2) !important;
+ 
+}
+.pricing-table .content .price h1{
+    color:#fff !important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+    margin-top: 30px !important;
+}
+.pricing-table .content ul{
+   list-style-type: none !important;
+   margin-bottom: 20px !important;
+   padding-top: 10px !important;
+   margin-right: 20px !important;
+}
+
+.pricing-table .content ul li{
+    margin: 20px 0px !important;
+    font-size: 14px !important;
+    color:#555 !important;
+}
+
+.hedpo{
+    margin: 0;
+}
+
+.pricing-table .content .sign-up{
+    background:linear-gradient(to right, #F2E3E1 10%, #C02D15 90%) !important;
+    border-radius: 40px !important;
+    font-weight: 500 !important;
+    position: relative !important;
+    display: inline-block !important;
+}
+
+
+.pricing-table .btn {
+    color: #05042F !important;
+    padding: 14px 40px !important;
+    display: inline-block !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    -webkit-transition: all 0.3s linear !important;
+    -moz-transition: all 0.3 linear !important;
+    transition: all 0.3 linear !important;
+    border: none !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    position: relative !important;
+    text-decoration: none !important;
+    margin: 2px !important;
+    z-index: 9999;
+    text-decoration: none !important;
+    border-radius:50px !important;
+ 
+}
+
+.pricing-table .btn:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pricing-table .btn.bordered {
+    z-index: 50;
+    color: #333 !important;
+}
+.pricing-table:hover .btn.bordered{
+    color:#fff !important;
+}
+
+.pricing-table .btn.bordered:after {
+    background: #fff none repeat scroll 0 0 !important;
+    border-radius: 50px !important;
+    content: "";
+    height: 100% !important;
+    left: 0;
+    position: absolute !important;
+    top: 0;
+    -webkit-transition: all 0.3s linear !important;
+    -moz-transition: all 0.3 linear !important;
+    transition: all 0.3 linear !important;
+    width: 100% !important;
+    z-index: -1;	
+    -webkit-transform:scale(1) !important;
+    -moz-transform:scale(1) !important;
+    transform:scale(1) !important;
+}
+.pricing-table:hover .btn.bordered:after{
+    opacity:0 !important;
+    transform:scale(0) !important;
+}
+
+@media screen and (max-width:768px){
+   .wrapper{
+        grid-template-columns: repeat(2,1fr);
+    } 
+}
+
+@media screen and (max-width:600px){
+   .wrapper{
+        grid-template-columns: 1fr;
+    } 
+}
+
+.show{
+    margin-top: 30px;
+    float: right;
+}
